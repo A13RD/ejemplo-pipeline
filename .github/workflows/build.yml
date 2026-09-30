@@ -36,3 +36,4 @@ jobs:
  docker push ${{ secrets.DOCKER_USER }}/${{ env.IMAGE }}:${{
 steps.vars.outputs.sha_short }}
  docker push ${{ secrets.DOCKER_USER }}/${{ env.IMAGE }}:latest
+ 
